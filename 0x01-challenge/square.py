@@ -18,7 +18,7 @@ class Square():
 
     def permiter_of_my_square(self):
         """ Permiter of the square """
-        return 4 * self.width
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         """ Printable representation """
