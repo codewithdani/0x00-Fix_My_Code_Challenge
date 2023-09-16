@@ -15,7 +15,7 @@ class Square():
         return 4 * self.width
 
     def __str__(self):
-        return "{}/{}".format(self.width, self.height)
+        return f"Width: {self.width}, Height: {self.height}"
 
 
 if __name__ == "__main__":
